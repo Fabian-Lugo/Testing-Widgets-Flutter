@@ -1,16 +1,42 @@
-# application_01
+# Test Widgets Flutter 🚀
 
-A new Flutter project.
+Una aplicación moderna desarrollada en Flutter para probar y experimentar con diversos widgets y componentes. Este proyecto nació como mi primera aplicación en el curso y ha evolucionado en una herramienta de aprendizaje continua.
 
-## Getting Started
+## 📱 Sobre la App
 
-This project is a starting point for a Flutter application.
+**Test Widgets Flutter** es un laboratorio personal donde exploro las capacidades de Flutter, desde la creación de interfaces dinámicas hasta la implementación de sistemas de rutas y estados.
 
-A few resources to get you started if this is your first Flutter project:
+### Tecnologías Usadas
+- **Flutter & Dart**: Core de la aplicación.
+- **Material Design 3**: Estética moderna y limpia.
+- **Custom Themes**: Sistema de colores y tipografías personalizadas.
+- **Iconografía Accent**: Diseño minimalista y funcional.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Inicio Rápido
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Fabian-Lugo/Testing-Widgets-Flutter
+   ```
+2. Instala las dependencias:
+   ```bash
+   flutter pub get
+   ```
+3. Ejecuta la aplicación:
+   ```bash
+   flutter run
+   ```
+
+## 🛠️ Roadmap del Proyecto
+- [x] Estructura inicial del proyecto.
+- [x] Implementación de rutas dinámicas.
+- [x] Centralización de estilos (AppTextStyle).
+- [x] Modernización de la UI (Branding Update).
+- [ ] Pruebas unitarias y de integración.
+
+## 👨‍💻 Autor
+**Fabian Lugo**
+- GitHub: [@Fabian-Lugo](https://github.com/Fabian-Lugo/Testing-Widgets-Flutter)
+
+---
+*Este proyecto es parte de mi camino como desarrollador Flutter. ¡Agradezco cualquier feedback!*

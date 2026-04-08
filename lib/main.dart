@@ -1,4 +1,4 @@
-import 'package:application_01/presentation/pantallas/ingreso_texto.dart';
+import 'package:apllication/router/app_routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +12,13 @@ class MyApp extends StatelessWidget { //Creamos la clase MyApp hija de StateLess
   Widget build(BuildContext context) {
     return MaterialApp( //Material app es nuestra aplicacion en general
       debugShowCheckedModeBanner: false, //Oculta el icono de debug en la parte superior derecha
+      title: 'Primea App',
       theme: ThemeData( //Theme sirve para poner la app en dark o white y más cosas
         useMaterial3: true, //Version de flutter material que usaremos siempre la más reciente
         colorSchemeSeed: Colors.green //Se asigna el color a los elementos flotantes
       ),
-      home: const IngresaTexto(),
+      initialRoute: AppRoutes.home,
+      routes: appRoutes,
     );
   }
 }
